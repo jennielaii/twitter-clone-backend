@@ -1,7 +1,7 @@
 from dotenv import load_dotenv
 import os
 load_dotenv()
-db_url = os.environ.get("DATABASE_URL")
+db_url = os.environ.get("postgresql://localhost:3000/twitter-clone")
 
 from logging.config import fileConfig
 
